@@ -1,0 +1,15 @@
+.App {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  margin: 30px;
+  background-color: #dcf0e1;
+}
+.logo{
+  height: 50px;
+  width: 150px;
+}
+
+
