@@ -1,1 +1,0 @@
-# smartpulse-test-project
