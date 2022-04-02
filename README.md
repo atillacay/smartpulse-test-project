@@ -1,15 +1,22 @@
- # To run and test the app...
+ # To run and test the app
 ## Front end
 ### `npm start`
 Runs the front end in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Back end
 ### `npm start` will run `nodemon index.js`
-Rund the back end in development mode and listens on http://localhost:3030
+Runs the back end in development mode and listens on http://localhost:3030
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload when you make changes. You may also see any lint errors in the console.
 
+# Run app as docker container
+### Clone the repo from `dockerize` branch for dockerized app
+### `docker-compose up --build -d`
+Run above command where docker-compose.yml lives. App will be available at http://localhost:3000
+### Important Note: When app run as containers enpoint url to be called will be "/api" instead of http://localhost:3030/api
+
+#
+#
 # Available Scripts
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ### `npm start`

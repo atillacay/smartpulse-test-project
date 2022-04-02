@@ -17,9 +17,11 @@ const { default: axios } = require("axios");
 const app = express();
 const port = 3030;
 
+
+
 app.use(cors());
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
   const today = new Date();
   const date =
     today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();

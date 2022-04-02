@@ -22,9 +22,9 @@ function App() {
     defaultSortOrder: "asc",
   };
 
-  //call localhost to get data
+  //call api to get data ***docker network
   useEffect(() => {
-    axios.get("http://localhost:3030/").then((response) => {
+    axios.get("/api").then((response) => {
       console.log(response.data);
       setData(response.data);
       setLoading(false);
